@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fresh Labstech</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+
+  .headline {
+    background-color: #000;
+    padding: 8px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+
+  .headline h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .headline a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+  }
+
+  .headline a:hover {
+    color: darkred;
+  }
+
+  .demo {
+    margin-top: 30px;
+    text-align: right;
+    margin-right: 735px;
+  }
+  #wide{
+    width: 698px;
+    text-justify: justify;
+  }
+  #button{
+    border: 1px solid #FFC300;
+    border-radius: 5px;
+    font-size: 34px;
+    background-color: #FFC300;
+    text-decoration: none;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  #button:hover{
+    background-color: black;
+
+  }
+  .kiki,.uyi,.tupac,.son,.jalamia {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%; 
+    overflow: hidden;
+    margin-top: 8px;
+    margin-right:-15px;
+    margin-bottom: 20px;
+  }
+    .kiki {
+    top: 100px; 
+    left:0px; 
+  }
+
+  .store{
+    width: 230px;
+    height: 210px;
+  }
+  .new{
+    width: 280px;
+    height: 175px;
+  }
+  .book{
+    width: 340px;
+    height: 175px;
+  }
+  .store{
+    position: absolute;
+    top: 65px;
+    left: 950px;
+  }
+  .new{
+    position: absolute;
+    top: 180px;
+    left: 1110px;
+  }
+  .book{
+    position: absolute;
+    top: 210px;
+    left: 774px;
+  }
+  .new {
+    z-index: 1;}
+
+  .background-black {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 640px;
+    padding-top: 60px;
+  }
+
+  .span {
+    display: block;
+    font-size: 18px; 
+    text-decoration: underline;
+    margin-bottom: 10px;
+    text-align: center; 
+  }
+
+  .E {
+    color: white; 
+  }
+
+  .S {
+    color:red;
+  }
+  .div1,
+.div2,
+.div3 {
+  width: 30%; 
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 8px;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.div1{background-color: #63635D;
+  height: 470px;
+}
+.div2{background-color: #63635D;
+  height: 470px;
+}
+.div3{background-color: #63635D;
+  height: 470px;
+}
+.Waz1,
+.Waz2,
+.Waz3 {
+  width: 30%; 
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 8px;
+}
+.wizkid::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.Waz1{background-color: #63635D;
+  height: 530px;
+}
+.Waz2{background-color: #63635D;
+  height: 530px;
+}
+.Waz3{background-color: #63635D;
+  height: 530px;
+}
+.circle-image{
+  display: flex;
+    align-items: center;
+}
+.members{max-width: 200px;
+  margin-left: 20px;
+  margin-top: 5px;
+  color: #FFC300;
+}
+.wow{padding-left: 26px;}
+.demo{padding-right:260px;}
+.headline{padding-left: 20px;
+  padding-right: 20px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="headline">
+  <h1>Fresh Labstech</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Projects</a>
+    <a href="#">Achievements</a>
+    <a href="#">Testimonials</a>
+    <a href="#">Contact</a>
+  </nav>
+</div>
+
+<h1 class="demo">
+  <span style="color:#FFC300; font-size: 45px;">Technology:</span> A Path to<br>Endless Possibilities.</h1>
+  <div class="images-container">
+  <img class="store" src="store.jpg" alt="library">
+  <img class="book" src="book.jpg" alt="books">
+  <img class="new" src="new.jpg" alt="new year's resolution">
+</div>
+<section class="wow">
+  <p id="wide">Education opens the door to a realm of limitless possibilities, empowering individuals with the knowledge, skills, and perspectives necessary to explore, innovate, and contribute meaningfully to the world. It serves as a transformative journey, fostering critical thinking, creativity, and personal growth, while offering opportunities for lifelong learning and the pursuit of diverse paths, ultimately shaping a brighter future for both individuals and society as a whole.</p> 
+
+  <a id="button" href="#">Join now</a>
+  <div class="circle-image">
+  <img class="kiki" src="kiki.jpg" alt="VICTORIA">
+  <img class="uyi" src="uyi.jpg" alt="MAN LAYING IN BED">
+  <img class="tupac" src="tupac.jpg" alt="2pac">
+  <img class="son" src="son.jpg" alt="ME AND SON">
+  <img class="jalamia" src="jalamia.jpg" alt="">
+<p class="members">25,000+ Members</p>
+</section>
+</div>
+  <section class="background-black">
+  <h1 class="span"><span class="E">EXCLUSIVE</span> <span class="S">SERVICE</span></h1>
+  <p>A developer is a skilled and creative professional who specializes in designing, building, and maintaining software applications, websites, and digital solutions. Developers possess a deep understanding of programming languages, frameworks, and technologies, allowing them to translate ideas and concepts into functional and interactive digital experiences. They are instrumental in bringing innovative concepts to life, often collaborating with designers, project managers, and other team members to craft user-friendly and efficient solutions. With a focus on problem-solving and continuous learning, developers continually adapt to evolving technologies, stay current with industry trends, and refine their coding skills. Their work extends beyond writing code; it involves optimizing performance, ensuring security, and creating seamless user interfaces. Whether working on front-end user experiences or back-end systems and databases, developers play a pivotal role in shaping the digital landscape and driving technological progress.</p>
+  <div class="clearfix">
+  <div class="div1">
+    <h1>Visual Stunning Website</h1>
+    <p>A visually stunning website is a captivating digital masterpiece that seamlessly merges aesthetic appeal with user-centric design. It represents an exceptional blend of artistic creativity and functional excellence, leaving a lasting impression on visitors. Visual elements, such as elegant layouts, vibrant color schemes, thoughtfully chosen typography, and high-quality imagery, converge harmoniously to create an immersive and memorable browsing experience. Each element is meticulously crafted to evoke emotion, convey brand identity, and guide users through a seamless journey. A visually stunning website not only captures attention but also engages users on a deeper level, fostering a sense of trust and credibility. Such websites are a testament to the power of design in shaping perceptions, enhancing usability, and making a profound impact in the digital realm.</p>
+  </div>
+  <div class="div2">
+    <h1>Front-End Delopment</h1>
+    <p>Front-end development is the art of shaping the visual and interactive aspects of a website or web application. It involves translating design concepts into dynamic and responsive user interfaces that captivate and engage visitors. Front-end developers are skilled architects of user experience, employing a combination of HTML, CSS, and JavaScript to craft intuitive layouts, stylish typography, and seamless navigation. Their work encompasses creating fluid animations, optimizing performance for various devices and screen sizes, and ensuring compatibility across different browsers. A front-end developer's role extends beyond code; it involves understanding user behavior and preferences to create interfaces that are not only visually appealing but also highly functional and user-friendly. In a world driven by digital experiences, front-end development plays a pivotal role in shaping how users interact with and perceive a brand, leaving a lasting impression and contributing to the success of any online venture.</p>
+  </div>
+  <div class="div3">
+    <h1>Back-End Development</h1>
+    <p>Back-end development serves as the backbone of web applications, driving the behind-the-scenes functionality that powers user interactions and data management. Back-end developers build and maintain the server-side logic, databases, and APIs that enable the seamless exchange of information between the user interface and the server. They work diligently to ensure data integrity, security, and efficient processing, often using languages like Python, Ruby, PHP, or Node.js. Back-end developers are adept problem solvers, working on tasks ranging from designing complex database structures to implementing authentication and authorization systems. Their role is essential in creating scalable, robust, and reliable web applications that can handle a growing number of users and evolving business needs. While users may not directly interact with the back-end, its functionality is crucial in delivering a smooth and satisfying user experience, making back-end development an integral part of modern digital solutions.</p>
+  </div>
+</div>
+  <div class="Wizkid">
+<div class="Waz1">
+  <h1>E-Commerce Solution</h1>
+  <p>An E-commerce Solution is a comprehensive digital platform designed to facilitate and streamline online buying and selling processes. It empowers businesses to establish a robust online presence, enabling them to showcase their products or services to a global audience, accept online payments, manage inventory, track orders, and provide a seamless shopping experience to customers. E-commerce solutions encompass a range of essential features, including user-friendly storefronts, secure payment gateways, customizable product catalogs, dynamic pricing options, and integrated customer relationship management tools. By leveraging the power of e-commerce solutions, businesses can tap into the vast potential of the digital marketplace, enhance their brand visibility, and engage in meaningful interactions with customers, ultimately leading to increased sales, growth, and sustainable success in the rapidly evolving digital economy.</p>
+</div>
+<div class="Waz2">
+  <h1>CMS Development</h1>
+  <p>Content Management System (CMS) Development involves the creation and customization of a digital platform that empowers individuals and organizations to efficiently manage, organize, and publish various types of content on their websites. Through a CMS, users can easily create, edit, and update content without requiring in-depth technical knowledge. These systems typically offer user-friendly interfaces, allowing content creators to seamlessly upload text, images, videos, and other multimedia elements. CMS development involves designing and coding the framework, templates, and functionalities that enable content creation, storage, retrieval, and presentation. Such systems often incorporate features like version control, user access controls, and content scheduling, facilitating collaborative content development and ensuring consistent branding and messaging. CMS development plays a pivotal role in enabling businesses and individuals to maintain dynamic and engaging online presences, effectively reaching their target audiences and fostering meaningful digital experiences.</p>
+</div>
+<div class="Waz3">
+  <h1>Website Maintainance</h1>
+  <p>Website Maintenance is the ongoing process of ensuring that a website remains functional, up-to-date, and optimized for optimal performance and user experience. It involves a series of proactive tasks aimed at addressing technical issues, updating content, and implementing necessary improvements to keep the website running smoothly. Website maintenance encompasses various activities, such as regularly updating plugins, software, and security protocols to safeguard against potential vulnerabilities and cyber threats. It also involves monitoring website analytics, identifying areas for enhancement, and making necessary adjustments to ensure that the site aligns with evolving user preferences and technological trends. Furthermore, content updates, including refreshing text, images, and multimedia elements, play a crucial role in maintaining relevancy and engaging visitors. Effective website maintenance contributes to sustained search engine visibility, seamless navigation, faster loading times, and a consistent, positive user experience, ultimately maximizing the website's impact and value for both businesses and their audiences.</p>
+</div>
+</div>
+</body>
+</html>
